@@ -1,6 +1,10 @@
 # PyTorch-Examples
-##01. LinearRegression:
+
+## 01. LinearRegression:
 An simple example using PyTorch to fit a linear equation.
 
-##02. Image Convolution:
+## 02. Image Convolution:
 Performing the convolution operation (blur) on an image.
+
+## 03. CNN:
+Creating a CNN classifier.
