@@ -30,3 +30,10 @@ An example to perform the communication through the process during the training 
   <li>group.py: communicate with the nodes in the specific group</li>
   <li>distributed.py: partition the training data to different GPUs and reduce the gradient from each nodes</li>
 </ul>
+
+## 07. Spatial Transformation:
+Spatial transformer networks (STN for short) allow a neural network to learn how to perform spatial transformations
+ on the input image in order to enhance the geometric invariance of the model.
+
+## Reference
+[1] https://pytorch.org/tutorials/
