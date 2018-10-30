@@ -1,39 +1,48 @@
 # PyTorch-Examples
 
-## 01. LinearRegression:
+## 01. LinearRegression
+
 An simple example using PyTorch to fit a linear equation.
 
-## 02. Image Convolution:
+## 02. Image Convolution
+
 Performing the convolution operation (blur) on an image.
 
-## 03. CNN:
-Creating a CNN classifier.
+## 03. CNN
 
-## 04. Res Net:
-Using pretrained resnet18 to classify CIFAR10/MNIST images.
+Creating a CNN classifier to predict MNIST dataset.
+
+## 04. Res Net
+
+Using pretrained **resnet18** to classify CIFAR10/MNIST images.
 Using tensorboard to visualize the running loss.
 
-## 05. Transfer Learning:
+## 05. Transfer Learning
+
 An complete example of transfer learning.
 
 These two major transfer learning scenarios look as follows:
-<ul>
-  <li>Finetuning the convnet</li> 
-  <li>ConvNet as fixed feature extractor</ul>
-</ul>
 
-## 06. Distributed Training:
+* Finetuning the convnet
+* ConvNet as fixed feature extractor
+
+## 06. Distributed Training
+
 An example to perform the communication through the process during the training process.
 
-<ul>
-  <li>point2point.py: perform p2p communication</li>
-  <li>group.py: communicate with the nodes in the specific group</li>
-  <li>distributed.py: partition the training data to different GPUs and reduce the gradient from each nodes</li>
-</ul>
+* point2point.py: perform p2p communication
+* group.py: communicate with the nodes in the specific group
+* distributed.py: partition the training data to different GPUs and reduce the gradient from each nodes
 
-## 07. Spatial Transformation:
-Spatial transformer networks (STN for short) allow a neural network to learn how to perform spatial transformations
+## 07. Spatial Transformation
+
+**Spatial transformer networks (STN for short)** allow a neural network to learn how to perform spatial transformations
  on the input image in order to enhance the geometric invariance of the model.
 
+## 08. ONNX
+
+Using PyTorch to exporting the ONNX model. The model is loaded ant tested with Caffe2 backend.
+
 ## Reference
-[1] https://pytorch.org/tutorials/
+
+[1] <https://pytorch.org/tutorials/>
