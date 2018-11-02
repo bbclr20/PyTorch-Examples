@@ -43,6 +43,12 @@ An example to perform the communication through the process during the training 
 
 Using PyTorch to exporting the ONNX model. The model is loaded ant tested with Caffe2 backend.
 
+## 10. Neural Style Transfer
+
+**Neural style transfer** is an optimization technique used to take three images, a content image, a style reference image and the input image you want to style — and blend them together[2]. 
+
 ## Reference
 
 [1] <https://pytorch.org/tutorials/>
+
+[2] <https://arxiv.org/abs/1508.06576>
