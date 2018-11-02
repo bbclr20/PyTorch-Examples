@@ -45,7 +45,7 @@ Using PyTorch to exporting the ONNX model. The model is loaded ant tested with C
 
 ## 10. Neural Style Transfer
 
-**Neural style transfer** is an optimization technique used to take three images, a content image, a style reference image and the input image you want to style — and blend them together[2]. 
+**Neural style transfer** is an optimization technique used to take three images, a content image, a style reference image and the input image you want to style and blend them together[2].
 
 ## Reference
 
