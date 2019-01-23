@@ -12,6 +12,10 @@ Performing the convolution operation (blur) on an image.
 
 Creating a CNN classifier to predict MNIST dataset.
 
+## 04. Reading data
+
+Reading image data and displaying images.
+
 ## 04. Res Net
 
 Using pretrained **resnet18** to classify CIFAR10/MNIST images.
